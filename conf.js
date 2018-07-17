@@ -25,6 +25,10 @@ exports.bRunWitness = false; // also post empty transactions when there are few 
 // football-data.org credentials
 exports.footballDataApiKey = '';
 
+// MySportsFeeds credentials
+exports.MySportsFeedsUser = 'ILay';
+exports.MySportsFeedsPw = 'dN43h&G!%K8j';
+
 exports.KEYS_FILENAME = 'keys.json';
 
 console.log('finished sports oracle conf');
