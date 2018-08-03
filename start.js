@@ -16,6 +16,7 @@ const administration = require('./modules/administration.js');
 const mySportFeed = require('./modules/api_mysportfeed.js');
 const UfcCom = require('./modules/api_ufc_com.js');
 const footballDataOrg = require('./modules/api_footballdata_org.js');
+const pandascore = require('./modules/api_pandascore.js');
 const theScore = require('./modules/api_thescore.js');
 
 var assocPeers = [];
@@ -30,6 +31,7 @@ var assocPeers = [];
 
 //footballDataOrg.getAllChampionshipsAndPushIntoCalendar();
 //footballDataOrg.getFixturesAndPushIntoCalendar('Soccer','WC', 'https://api.football-data.org/v1/competitions/467/fixtures'); //force world cup
+pandascore.getAllVideogamesAndPushIntoCalendar();
 
 if (conf.bRunWitness)
 	require('byteball-witness');
