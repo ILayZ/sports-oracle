@@ -26,10 +26,10 @@ var assocPeers = [];
 //mySportFeed.getFixturesAndPushIntoCalendar('Baseball', 'MLB', 'https://api.mysportsfeeds.com/v1.1/pull/mlb/2018-regular/');
 //mySportFeed.getFixturesAndPushIntoCalendar('Basketball', 'NBA', 'https://api.mysportsfeeds.com/v1.1/pull/nba/2018-playoff/');
 //mySportFeed.getFixturesAndPushIntoCalendar('Ice hockey', 'NHL', 'https://api.mysportsfeeds.com/v1.1/pull/nhl/2018-playoff/');
-UfcCom.getFixturesAndPushIntoCalendar('Mixed Martial Arts', 'UFC');
+//UfcCom.getFixturesAndPushIntoCalendar('Mixed Martial Arts', 'UFC');
 
-footballDataOrg.getAllChampionshipsAndPushIntoCalendar();
-footballDataOrg.getFixturesAndPushIntoCalendar('Soccer','WC', 'https://api.football-data.org/v1/competitions/467/fixtures'); //force world cup
+//footballDataOrg.getAllChampionshipsAndPushIntoCalendar();
+//footballDataOrg.getFixturesAndPushIntoCalendar('Soccer','WC', 'https://api.football-data.org/v1/competitions/467/fixtures'); //force world cup
 
 if (conf.bRunWitness)
 	require('byteball-witness');

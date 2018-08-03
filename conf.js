@@ -22,6 +22,9 @@ exports.MIN_AVAILABLE_WITNESSINGS = 100;
 
 exports.bRunWitness = false; // also post empty transactions when there are few datafeed transactions
 
+// pandascore token
+exports.pandascoreApiKey = 'xqbWrlgy7WSgt_hlankWizZJXasia2nzCr6OGLj1FUAkwv2z_o0';
+
 // football-data.org credentials
 exports.footballDataApiKey = '';
 
