@@ -34,4 +34,7 @@ exports.MySportsFeedsPw = 'dN43h&G!%K8j';
 
 exports.KEYS_FILENAME = 'keys.json';
 
+exports.admin_email = i.a.zaharchuk@gmail.com
+exports.from_email = i.a.zaharchuk@gmail.com
+
 console.log('finished sports oracle conf');
