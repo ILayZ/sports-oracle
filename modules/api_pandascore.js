@@ -195,5 +195,5 @@ function getFixturesAndPushIntoCalendar(category, championship, url) {
 }
 
 
-exports.getAllChampionshipsAndPushIntoCalendar = getAllChampionshipsAndPushIntoCalendar;
+exports.getAllVideogamesAndPushIntoCalendar = getAllVideogamesAndPushIntoCalendar;
 exports.getFixturesAndPushIntoCalendar = getFixturesAndPushIntoCalendar;
